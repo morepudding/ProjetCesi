@@ -91,3 +91,53 @@ nav ul li a:hover {
   font-size: 18px;
   margin-bottom: 10px;
 }
+
+@media screen and (max-width: 992px) {
+
+
+  header {
+    padding: 15px;
+  }
+
+  header h1 {
+    font-size: 22px;
+  }
+
+  nav ul li {
+    display: block;
+    margin: 0;
+    margin-bottom: 15px;
+  }
+
+  nav ul li:last-child {
+    margin-bottom: 0;
+  }
+
+  .destinations-trigger:hover .destinations-dropdown,
+  .destinations-trigger:focus .destinations-dropdown {
+    position: static;
+    display: block;
+  }
+
+  .destinations-dropdown {
+    position: static;
+    display: none;
+  }
+
+  .destinations-dropdown a {
+    padding: 10px 15px;
+  }
+
+  .destination table {
+    margin-top: 15px;
+  }
+
+  .destination table td {
+    padding: 8px 0;
+  }
+
+  .destination table caption {
+    font-size: 18px;
+  }
+}
+
